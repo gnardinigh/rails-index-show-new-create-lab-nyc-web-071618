@@ -1,0 +1,8 @@
+<h1>HELLO FROM COUPON INDEX</h1>
+
+<ul>
+<%@coupons.each do |cpn|%>
+  <li><%=cpn.coupon_code%></li>
+  <li><%=cpn.store%></li><br>
+<%end%>
+</ul>
